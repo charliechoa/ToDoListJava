@@ -29,11 +29,12 @@ private HashMap<String, Task> tasks = new HashMap<String, Task>();
 		//return null;
 	}
 	
-	public Task editTask(String description) {
+	public boolean editTask(String description) {
 		//Add code to edit task here
-		
-		return null;
-		
+		Task oldValue = null;
+		Task newValue = null;
+		return tasks.replace(description, oldValue, newValue);
+		//return null;
 	}
 	public Collection<Task> getAllTasks() {
 		return tasks.values();
