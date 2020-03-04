@@ -9,9 +9,9 @@ private HashMap<String, Task> tasks = new HashMap<String, Task>();
 		tasks.put(task.getDescription(), task);
 		//Add code here
 	}
-	public void completeTask(String description) {
+	public boolean completeTask(Task task) {
+		return task.isComplete();
 		// Add code here
-		
 	}
 	public boolean getStatus(String description) {
 		//Add code here

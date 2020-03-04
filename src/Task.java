@@ -22,6 +22,7 @@ public class Task {
 		this.description = description;
 	}
 	public boolean isComplete() {
+		isComplete = true;
 		return isComplete;
 	}
 	public void setComplete(boolean isComplete) {

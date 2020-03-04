@@ -58,13 +58,19 @@ public class ToDoListTest extends TestCase{
 		TList.addTask(testGC);
 		//fail("Not implemented yet");
 	}
-	/*@Test
+	@Test
+	public void testCompleteTask() {
+		Task testC = new Task ("In Progress");
+		testC.isComplete();
+		//fail ("Not implemented yet");
+	}
+	@Test
 	public void testEditTask() {
-		Task testT1. = new Task ("Current Description");
+		Task testT1 = new Task ("Current Description");
 		Task testT2 = new Task ("New Description");
 		ToDoList TList = new ToDoList ();
 		TList.addTask(testT1);
 		assertTrue(TList.editTask(testT2.getDescription()));
 		//fail ("Not implemented yet");
-	}*/
+	}
 }
