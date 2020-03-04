@@ -70,7 +70,8 @@ public class ToDoListTest extends TestCase{
 		Task testT2 = new Task ("New Description");
 		ToDoList TList = new ToDoList ();
 		TList.addTask(testT1);
-		assertTrue(TList.editTask(testT2.getDescription()));
+		//TList.editTask("New Description");
+		TList.editTask(testT2.getDescription());
 		//fail ("Not implemented yet");
 	}
 }
