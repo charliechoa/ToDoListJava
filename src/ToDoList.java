@@ -28,6 +28,13 @@ private HashMap<String, Task> tasks = new HashMap<String, Task>();
 		return tasks.remove(description);
 		//return null;
 	}
+	
+	public Task editTask(String description) {
+		//Add code to edit task here
+		
+		return null;
+		
+	}
 	public Collection<Task> getAllTasks() {
 		return tasks.values();
 
